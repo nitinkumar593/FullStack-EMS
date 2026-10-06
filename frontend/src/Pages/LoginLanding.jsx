@@ -3,6 +3,11 @@ import LoginLeftSide from "../Component/LoginLeftside";
 import { Link } from 'react-router-dom';
 
 
+/**
+ * Renders the login landing page with portal selection links (admin/employee).
+ *
+ * @returns {JSX.Element} The rendered login landing page.
+ */
 function LoginLanding() {
 
     const portalOption = [

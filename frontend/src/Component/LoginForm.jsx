@@ -3,6 +3,15 @@ import { Link } from "react-router-dom";
 import LoginLeftSide from "./LoginLeftside";
 import { useState } from "react";
 
+/**
+ * Renders a login form with email/password fields and a submit handler.
+ *
+ * @param {Object} props
+ * @param {string} props.role - The role associated with this login form (e.g. admin, employee).
+ * @param {string} props.title - The heading displayed above the form.
+ * @param {string} props.subtitle - The supporting text displayed below the title.
+ * @returns {JSX.Element} The rendered login form.
+ */
 function LoginForm({ role, title, subtitle }) {
 
     const [email, setEmail] = useState("")
