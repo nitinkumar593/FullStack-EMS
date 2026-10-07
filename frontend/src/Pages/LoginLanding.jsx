@@ -1,5 +1,5 @@
 import { ShieldIcon, UserIcon, ArrowRightIcon } from 'lucide-react'
-import LoginLeftSide from "../Component/LoginLeftside";
+import LoginLeftSide from "../Component/LoginLeftSide";
 import { Link } from 'react-router-dom';
 
 
