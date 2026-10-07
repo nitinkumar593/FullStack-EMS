@@ -1,6 +1,6 @@
 import { ArrowRightIcon, EyeIcon, EyeOffIcon, Loader2Icon } from "lucide-react";
 import { Link } from "react-router-dom";
-import LoginLeftSide from "./LoginLeftside";
+import LoginLeftSide from './LoginLeftSide';
 import { useState } from "react";
 
 function LoginForm({ role, title, subtitle }) {
@@ -28,7 +28,7 @@ function LoginForm({ role, title, subtitle }) {
                         <p className="text-slate-500 text-sm sm:text-base mt-2">{subtitle}</p>
                     </div>
                     {error && (
-                        <div className="mb-6p-4 bg-rose-50 border border-rose-200 text-rose-700 text-sm rounded-xl flex items-start gap-3">
+                        <div className="mb-6 p-4 bg-rose-50 border border-rose-200 text-rose-700 text-sm rounded-xl flex items-start gap-3">
                             <div className="w-1.5 h-1.5 rounded-full bg-rose-500 mt-1.5 shrink-0" />
                             {error}
                         </div>
