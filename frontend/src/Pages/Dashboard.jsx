@@ -10,7 +10,7 @@ function Dashboard() {
     const [loading, setLoading] = useState(true);
 
     useEffect(()=>{
-        setData(dummyAdminDashboardData);
+        setData(dummyEmployeeDashboardData);
         setTimeout(()=>{
             setLoading(false)
         },1000);
